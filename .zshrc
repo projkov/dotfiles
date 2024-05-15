@@ -109,6 +109,7 @@ alias gl="git log"
 alias lr="git log -1 --pretty=%B | grep '^Ref:' | xclip -selection clipboard"
 alias gp="git pull"
 alias gps="git push"
+alias adog="git log --all --decorate --oneline --graph"
 
 alias ls="ls -la --color=auto"
 alias c="clear"
